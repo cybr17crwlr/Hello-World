@@ -26,7 +26,7 @@ changes(iris3, iris)
 knitr::opts_chunk$set(collapse = T, comment = "#>")
 options(tibble.print_min = 4L, tibble.print_max = 4L)
 library(dplyr)
-`
+```
 
 * `arrange()` must always copy all columns because you're changing the order of every one.
   This is an expensive operation for big data, but you can generally avoid
