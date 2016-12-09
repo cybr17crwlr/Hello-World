@@ -33,4 +33,5 @@ library(dplyr)
   it using the order argument to [window functions](window-functions.html)
 
 Suggests: knitr, rmarkdown
+
 VignetteBuilder: knitr
